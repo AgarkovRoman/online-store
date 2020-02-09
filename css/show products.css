@@ -1,0 +1,168 @@
+/*---------single goods--------*/
+
+.single-goods {
+    background: #fff;
+    padding: 30px 0;
+}
+
+.single-goods::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.single-goods-left {
+    float: left;
+    width: 37.5%;
+    margin: 0 1.25;
+    text-align: center;
+}
+
+.single-goods-right {
+    float: right;
+    width: 57.5%;
+    margin: 0 1.25;
+}
+
+.goods-img-max img {
+    max-width: 100%;
+    padding: 10px;
+}
+
+.goods-img-min img {
+    width: 66px;
+    height: 66px;
+}
+
+.goods-img-min div {
+    width: 94px;
+    height: 68px;
+    overflow: hidden;
+    background: #edf0f2;
+    display: inline-block;
+    line-height: 110px;
+    cursor: pointer;
+}
+
+.single-goods-card h1 {
+    color: #ff7013;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.single-goods-card .min-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.single-goods-card .full-description {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    width: 500px;
+    color: #fff;
+}
+
+.single-goods-card .min-description-2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #adadad;
+}
+
+.single-goods-card .full-description-2 {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    width: 500px;
+    color: #adadad;
+}
+
+.choose-size {
+    margin-top: 20px;
+    font-size: 18px;
+    border-bottom: 1px solid #adadad;
+}
+
+.choose-size::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.choose-size .active {
+    font-weight: bold;
+    color: #ff7013;
+}
+
+.choose-size .left {
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.choose-size .right {
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.choose-size button {
+    background: none;
+    border: none;
+    color: #868686;
+}
+
+.price-and-order {
+    margin-top: 40px;
+    color: #fff;
+}
+
+.dark {
+    color: #44525E;
+}
+
+.price-and-order .left {
+    width: 35%;
+    float: left;
+    text-align: left;
+}
+
+.price-and-order .left span {
+    font-weight: bold;
+}
+
+.price-and-order .right {
+    width: 65%;
+    float: left;
+    text-align: left;
+}
+
+.price-and-order .right ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.price-and-order .right li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.price-and-order .right .btn-order {
+    background: #ff7013;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8%;
+    color: #fff;
+}
+
+
+.section-related-products {
+    margin-top: 90px;
+}
+
+
+/*---------single goods--------*/
